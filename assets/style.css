@@ -1,19 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Mina:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Mina', sans-serif;
 }
 
 body {
-    padding-top: 8rem; 
+    /* padding-top: 8rem;  */
     background: rgb(2, 0, 36);
     background: linear-gradient(90deg, rgb(31, 25, 141) 0%, rgb(49, 21, 190) 17%, rgb(96, 175, 190) 99%);
 }
 
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Mina', sans-serif;
+}
+label {
+    font-weight: 700;
+}
+
+input{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+input::placeholder{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+button {
+    margin-top: 20px;
+}
+
+.btn btn-success {
+    display: block;
+}
+.card {
+    top: 25%;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
 .card-body {
     background-color: rgb(255, 255, 255);
     border-radius: 10%;
+    text-align: center;
 }

@@ -9,6 +9,7 @@ function validarCnpj(cnpj) {
       if (dado.nome == undefined) {
         alert(dado.status + "" + dado.message);
       } else {
+        console.log()
         document.getElementById("razao-social").value = dado.nome;
         document.getElementById("fantasia").value = dado.fantasia;
         document.getElementById("abertura").value = dado.abertura;
@@ -21,3 +22,15 @@ function validarCnpj(cnpj) {
     },
   });
 }
+
+const cleanDados = () => {
+  document.getElementById("cnpj").value = "";
+  document.getElementById("razao-social").value = "";
+  document.getElementById("fantasia").value = "";
+  document.getElementById("abertura").value = "";
+  document.getElementById("status").value = "";
+  document.getElementById("endereco").value = "";
+  document.getElementById("municipio").value = "";
+  document.getElementById("estado").value = "";
+  document.getElementById("telefone").value = "";
+};
