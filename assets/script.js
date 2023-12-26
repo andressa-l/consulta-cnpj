@@ -1,6 +1,6 @@
 function validarCnpj(cnpj) {
   $.ajax({
-    url: "http://www.receitaws.com.br/v1/cnpj/" + cnpj.replace(/[^0-9]/g, ""),
+    url: "https://www.receitaws.com.br/v1/cnpj/" + cnpj.replace(/[^0-9]/g, ""),
     type: "GET",
     dataType: "jsonp",
     success: function (dado) {
