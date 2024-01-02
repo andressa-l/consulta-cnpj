@@ -35,12 +35,3 @@ const cleanDados = () => {
   document.getElementById("telefone").value = "";
 };
 
-document.addEventListener("keypress", function(e) {
-  if(e.key === 'Enter') {
-  
-      const btn = document.querySelector(".form-control");
-    
-      btn.click();
-  
-  }
-});
