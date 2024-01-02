@@ -34,3 +34,13 @@ const cleanDados = () => {
   document.getElementById("estado").value = "";
   document.getElementById("telefone").value = "";
 };
+
+document.addEventListener("keypress", function(e) {
+  if(e.key === 'Enter') {
+  
+      const btn = document.querySelector(".btn-success");
+    
+      btn.click();
+  
+  }
+});
