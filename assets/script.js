@@ -38,7 +38,7 @@ const cleanDados = () => {
 document.addEventListener("keypress", function(e) {
   if(e.key === 'Enter') {
   
-      const btn = document.querySelector(".btn-success");
+      const btn = document.querySelector(".form-control");
     
       btn.click();
   
