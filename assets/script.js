@@ -34,3 +34,4 @@ const cleanDados = () => {
   document.getElementById("estado").value = "";
   document.getElementById("telefone").value = "";
 };
+
